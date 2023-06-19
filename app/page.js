@@ -6,6 +6,7 @@ import About from '@/components/About'
 import Techstack from '@/components/Techstack'
 import Contact from '@/components/Contact'
 import Projects from '@/components/Projects'
+import WorkExp from '@/components/WorkExp'
 
 const page = () => {
   const {data: session} = useSession();
@@ -28,8 +29,10 @@ const page = () => {
           {/* <img/> */}
           <About/>
           <Techstack/>
+          <WorkExp/>
           <Projects/>
           <Contact/>
+          
         </>
       }
     </div>

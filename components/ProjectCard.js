@@ -7,7 +7,10 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import Link from 'next/link';
 
+
 const ProjectCard= (props)=>{
+    console.log(props.img)
+    const img = `/assets/${props.img}`;
     //console.log(props.title);
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -15,7 +18,7 @@ const ProjectCard= (props)=>{
         <CardMedia
           component="img"
           height="140"
-          image={props.img}
+          image={img}
           alt={`${props.title} image`}
         />
         <CardContent>
