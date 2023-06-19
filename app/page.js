@@ -4,6 +4,8 @@ import { signIn, signOut, useSession } from 'next-auth/react'
 import React from 'react'
 import About from '@/components/About'
 import Techstack from '@/components/Techstack'
+import Contact from '@/components/Contact'
+import Projects from '@/components/Projects'
 
 const page = () => {
   const {data: session} = useSession();
@@ -23,8 +25,11 @@ const page = () => {
 
       {session && 
         <>
+          {/* <img/> */}
           <About/>
           <Techstack/>
+          <Projects/>
+          <Contact/>
         </>
       }
     </div>

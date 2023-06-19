@@ -6,7 +6,7 @@ const About = () => {
     const {data: session} = useSession();
     //console.log(session.user.email)
   return (
-    <div className='flex flex-col flex-center gap-5 px-9 bg-[#F1F6F9] m-5 py-5'>
+    <div className='flex flex-col flex-center gap-5 px-9 bg-light-blue m-5 py-5'>
         <h2 className='text-center'>About Me</h2>
         <p className='text-justify'>
             Hi <b>{session?.user?.name}</b>, I am Jyotishman Shandilya, your not so average dog loving, gymrat buddy.
