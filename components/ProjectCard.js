@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 
 const ProjectCard= (props)=>{
-    console.log(props.img)
+    // console.log(props.img)
     const img = `/assets/${props.img}`;
     //console.log(props.title);
   return (

@@ -14,10 +14,23 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { CardMedia } from '@mui/material';
+import { ImageList, ImageListItem } from '@mui/material';
+import { Link } from '@mui/material';
 import { useState } from 'react';
 
 const drawerWidth = 140;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = {'data':[
+  {
+    'name': 'insta', 
+    'link': 'https://www.instagram.com/jyotishman_jbx/'
+  }, 
+  {
+    'name': 'linkedin',
+    'link': 'https://www.linkedin.com/in/jyotishman-shandilya/'
+  }
+]};
+
 
 export default function DrawerAppBar(props) {
   const { window } = props;
@@ -34,12 +47,12 @@ export default function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
+        {navItems.data.map((item)=>(
+          <Link href={item.link}>
+          <Button key={item.name} sx={{ color: '#000' }}>
+            {item.name}
+          </Button>
+        </Link>
         ))}
       </List>
     </Box>
@@ -70,10 +83,12 @@ export default function DrawerAppBar(props) {
             Jyotishman Shandilya
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
+            {navItems.data.map((item) => (
+              <Link href={item.link}>
+                <Button key={item.name} sx={{ color: '#fff' }}>
+                  {item.name}
+                </Button>
+              </Link>
             ))}
           </Box>
         </Toolbar>

@@ -156,7 +156,7 @@
 
 /* Nav Component */
 .logo_text {
-  @apply font-satoshi font-semibold text-lg text-light-blue tracking-wide;
+  @apply font-satoshi font-semibold text-lg tracking-wide;
 }
 
 .dropdown {

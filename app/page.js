@@ -31,7 +31,7 @@ const page = () => {
           <Techstack/>
           <WorkExp/>
           <Projects/>
-          <Contact/>
+          {/* <Contact/> */}
           
         </>
       }
