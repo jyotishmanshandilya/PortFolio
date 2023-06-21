@@ -17,7 +17,7 @@ const About = () => {
             out to me regarding any work or if you just discuss some ideas. You can contact me by 
             clicking on the button below
         </p>
-        <button className='outline_btn'>Contact me</button>
+        {/* <button className='outline_btn'>Contact me</button> */}
     </div>
   )
 }
