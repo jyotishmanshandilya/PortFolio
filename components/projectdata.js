@@ -40,5 +40,13 @@ export default {
             'img':'tictactoe.png',
             'code': 'https://github.com/jyotishmanshandilya/Tic-Tac-Toe'
         },
+        {
+            'id': 6,
+            'title': 'Rick and Morty API',
+            'description': 'A next.js web app made to try out the rickandmortyapi to fetch character data and dislay it in a sleek and minimal frontend',
+            'link': 'https://rick-and-morty-api-eta-eight.vercel.app/',
+            'img':'rickandmorty.png',
+            'code': 'https://github.com/jyotishmanshandilya/Rick-and-Morty-API'
+        },
     ]
 }
