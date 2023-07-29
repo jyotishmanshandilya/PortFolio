@@ -24,7 +24,7 @@ const defaultOptions = {
 const Techstackcard = (props) => {
     const theme = useTheme();
     return (
-      <Tilt options={defaultOptions} style={{ height: 250, width: 250 }}>
+      <Tilt options={defaultOptions} style={{ height: 100, width: 200 }}>
           <Card className='grid grid-cols-2'>
             <Box className='align-middle'>
               <Typography className='text-center pt-9' component="div">
