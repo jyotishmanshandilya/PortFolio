@@ -5,7 +5,7 @@ import { useSession } from 'next-auth/react'
 
 
 const Contact = () => {
-    const {data: session} = useSession();
+    // const {data: session} = useSession();
 
     async function handleSubmit(e){
         e.preventDefault();
