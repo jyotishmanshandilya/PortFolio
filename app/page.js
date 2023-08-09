@@ -14,7 +14,6 @@ const page = () => {
   // console.log(session?.user?.email)
   return (
     <div className='flex flex-col'>
-      <h1 className='text-center pt-3 mb-5'>PortFolio</h1>
       {/* {!session && <button className='black_btn mx-auto rounded mb-5' onClick={() => {signIn('github')}}>
         Sign in
       </button>}

@@ -7,7 +7,7 @@ import techdata from './techdata';
 const Techstack = () => {    
   return (
     
-      <div className='mx-auto mb-5'>
+      <div className='mx-auto mb-5 mt-5'>
           <h2 className='text-center'>TechStack</h2>
           <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 mx-8 my-5'>
               {techdata.data.map((item) => (

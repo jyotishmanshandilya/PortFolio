@@ -41,20 +41,35 @@ export default function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography className='logo_text' variant="h6" sx={{ my: 2, textColor:'dark-blue' }}>
-        Jyotishman
-      </Typography>
-      <Divider />
-      <List>
-        {navItems.data.map((item)=>(
-          <Link href={item.link}>
-          <Button key={item.name} sx={{ color: '#000' }}>
-            {item.name}
-          </Button>
-        </Link>
-        ))}
-      </List>
+    <Box sx={{ textAlign: "center", backgroundColor: "black", minHeight: "100%" }}>
+      <div
+        className="p-2"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <a href="/">
+          <Typography className='logo_text' variant="h6" sx={{ my: 2, textColor:'white' }}>
+            Jyotishman
+          </Typography>
+        </a>
+      </div>
+      <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>   
+          <Typography className='logo_text' variant="h6" sx={{ my: 2, textColor:'white' }}>
+            Jyotishman
+          </Typography>   
+        <Divider />
+        <List>
+          {navItems.data.map((item)=>(
+            <Link href={item.link}>
+            <Button key={item.name} sx={{ color: '#fff' }}>
+              {item.name}
+            </Button>
+          </Link>
+          ))}
+        </List>
+      </Box>
     </Box>
   );
 
@@ -63,7 +78,7 @@ export default function DrawerAppBar(props) {
   return (
     <Box sx={{ display: 'flex', marginBottom: '5em' }}>
       <CssBaseline />
-      <AppBar sx={{ background: '#212A3E' }} component="nav">
+      <AppBar sx={{ background: 'black' }} component="nav">
         <Toolbar>
           <IconButton
             color="inherit"

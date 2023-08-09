@@ -8,7 +8,7 @@ const Projects = () => {
     //     console.log(item)
     // })
   return (
-    <div className='mx-5 px-9 py-5 bg-light-blue'>
+    <div className='m-5 sm:mx-10 px-9 py-5 bg-light-blue rounded-xl'>
         <h2 className='text-center mb-5'>Projects</h2>
         <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-5 justify-center'>
             {projectdata.data.map((item) => (
