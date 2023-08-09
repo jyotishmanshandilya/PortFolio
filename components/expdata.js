@@ -16,7 +16,7 @@ export default {
             'id': 3,
             'company': 'Samsung R&D Institute',
             'position': 'Project Intern',
-            'info': "Woring on AWS SNS to handle microservices from Samsung SmarthThings IOT devices and sending appropriate messages to the subcribers"
+            'info': "Woring on AWS SNS to handle microservices from Samsung SmartThings IOT devices and sending appropriate messages to the subcribers"
         },
         {
             'id': 4,
