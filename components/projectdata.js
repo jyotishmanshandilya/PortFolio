@@ -2,9 +2,9 @@ export default {
     'data':[
         {
             'id': 1,
-            'title': 'DASCII Main website',
+            'title': 'dascii.com',
             'description': 'Built the main website for my digital marketing and development agency using next.js.',
-            'link': 'https://team.dascii.com/',
+            'link': 'https://dascii.com/',
             'img':'dascii.png',
             'code': ''
         },
@@ -34,14 +34,6 @@ export default {
         },
         {
             'id': 5,
-            'title': 'Tic Tac Toe',
-            'description': 'Tic tac toe game app made using react framework of javascript. Allows players to play in realtime and reset after each game to continue wihtout refreshing',
-            'link': 'https://main.d2wa1g5go5txnn.amplifyapp.com/',
-            'img':'tictactoe.png',
-            'code': 'https://github.com/jyotishmanshandilya/Tic-Tac-Toe'
-        },
-        {
-            'id': 6,
             'title': 'Rick and Morty API',
             'description': 'A next.js web app made to try out the rickandmortyapi to fetch character data and dislay it in a sleek and minimal frontend',
             'link': 'https://rick-and-morty-api-eta-eight.vercel.app/',
