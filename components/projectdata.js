@@ -3,7 +3,7 @@ export default {
         {
             'id': 1,
             'title': 'dascii.com',
-            'description': 'Built the main website for my digital marketing and development agency using next.js.',
+            'description': 'Built the main website for my digital marketing and development agency using next.js for the front-end and spline for 3D graphics.',
             'link': 'https://dascii.com/',
             'img':'dascii.png',
             'code': ''
